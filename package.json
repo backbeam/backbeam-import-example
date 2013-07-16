@@ -1,7 +1,7 @@
 {
   "name": "backbeam-import-example",
   "version": "1.0.0",
-  "description": "An example nodejs 'script' that imports data to backbeam",
+  "description": "An example Node.js 'script' that imports data to backbeam",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -18,7 +18,7 @@ function importData(callback) {
 
 		// split the lines
 		var lines = data.split('\n')
-		async.each(lines, function(line, next) {
+		async.eachSeries(lines, function(line, next) {
 			// split the values in each line
 			var tokens = line.split(';')
 			if (tokens.length <= 1) { return next() } // ignore blank lines
