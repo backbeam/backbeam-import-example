@@ -1,0 +1,17 @@
+{
+  "name": "backbeam-import-example",
+  "version": "1.0.0",
+  "description": "An example nodejs 'script' that imports data to backbeam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "moment": "~2.1.0",
+    "async": "0.2.x",
+    "backbeam": "0.9.x"
+  }
+}
